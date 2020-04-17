@@ -1,0 +1,10 @@
+<app-header (chooseDisplay)="toggleView($event)"></app-header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <router-outlet></router-outlet>
+      <!-- <app-recipes *ngIf="view==='recipes'"></app-recipes>
+      <app-shopping-list *ngIf="view==='shoppingList'"></app-shopping-list> -->
+    </div>
+  </div>
+</div>
